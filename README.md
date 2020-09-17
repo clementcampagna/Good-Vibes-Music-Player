@@ -1,6 +1,6 @@
 # Good Vibes Music Player
 
-Good Vibes Music Player is a small open-source C# .NET music player written by Clément Campagna.\
+Good Vibes Music Player is a small open-source C# .NET music player.\
 \
 It uses the Media Foundation API (called through the NAudio library) and is capable of playing all the most common audio formats (mp3, m4a, wav, wma, etc.) and even the main audio track from video files (avi, mov, mp4, 3gp, etc.).\
 \
@@ -13,9 +13,10 @@ Download Good Vibes Music Player and see it for yourself today!
 ### Development:
 
 Want to contribute? Great, Good Vibes Music Player is open-source!\
+\
 Please feel free to clone this repository, fork it, make changes to the code, submit pull requests, raise issues, and/or email me using the address below for any suggestions, questions or remarks you may have.
 
 ### Contact Information:
 
-Author's email adress: clementcampagna+github@gmail.com\
+Author's email address: clementcampagna+github@gmail.com\
 Author's website: https://clementcampagna.com

@@ -14,5 +14,5 @@ Please feel free to clone its GitHub repository, fork it, make changes to the co
 # Contact Information:
 
 GitHub Repository: https://github.com/clementcampagna/Good-Vibes-Music-Player
-Author's email adress: clementcampagna+github@gmail.com
+Author's email address: clementcampagna+github@gmail.com
 Author's website: https://clementcampagna.com
