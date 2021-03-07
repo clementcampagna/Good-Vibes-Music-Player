@@ -30,9 +30,9 @@
 		{
 			this.components = new System.ComponentModel.Container();
 			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(GoodVibesMainForm));
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+			System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
 			this.goodVibesMainFormTopBar = new Guna.UI2.WinForms.Guna2Panel();
 			this.topBarMinimizePictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
 			this.topBarClosePictureBox = new Guna.UI2.WinForms.Guna2PictureBox();
@@ -198,6 +198,7 @@
 			// 
 			// dragControl
 			// 
+			this.dragControl.ContainerControl = this;
 			this.dragControl.TargetControl = this.goodVibesMainFormTopBar;
 			// 
 			// songTrackBar
@@ -327,35 +328,35 @@
 			this.playlistDataGridView.AllowUserToDeleteRows = false;
 			this.playlistDataGridView.AllowUserToResizeColumns = false;
 			this.playlistDataGridView.AllowUserToResizeRows = false;
-			dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(224)))), ((int)(((byte)(244)))));
-			this.playlistDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+			dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(224)))), ((int)(((byte)(244)))));
+			this.playlistDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
 			this.playlistDataGridView.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
 			this.playlistDataGridView.BackgroundColor = System.Drawing.Color.White;
 			this.playlistDataGridView.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
 			this.playlistDataGridView.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
 			this.playlistDataGridView.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.Disable;
 			this.playlistDataGridView.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-			dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
-			dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-			dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-			dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-			dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-			this.playlistDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+			dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(152)))), ((int)(((byte)(219)))));
+			dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+			dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+			dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+			dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+			this.playlistDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
 			this.playlistDataGridView.ColumnHeadersHeight = 21;
 			this.playlistDataGridView.ColumnHeadersVisible = false;
 			this.playlistDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.playlistColumn,
             this.songPathColumn});
-			dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-			dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
-			dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 10.5F);
-			dataGridViewCellStyle6.ForeColor = System.Drawing.Color.Black;
-			dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(186)))), ((int)(((byte)(231)))));
-			dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.Black;
-			dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-			this.playlistDataGridView.DefaultCellStyle = dataGridViewCellStyle6;
+			dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+			dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(214)))), ((int)(((byte)(234)))), ((int)(((byte)(247)))));
+			dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 10.5F);
+			dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+			dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(186)))), ((int)(((byte)(231)))));
+			dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+			dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+			this.playlistDataGridView.DefaultCellStyle = dataGridViewCellStyle3;
 			this.playlistDataGridView.EnableHeadersVisualStyles = false;
 			this.playlistDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(187)))), ((int)(((byte)(220)))), ((int)(((byte)(242)))));
 			this.playlistDataGridView.Location = new System.Drawing.Point(1, 473);
@@ -423,7 +424,7 @@
 			this.plusContextMenuStrip.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
 			this.plusContextMenuStrip.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
 			this.plusContextMenuStrip.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-			this.plusContextMenuStrip.Size = new System.Drawing.Size(206, 120);
+			this.plusContextMenuStrip.Size = new System.Drawing.Size(206, 98);
 			// 
 			// addFilesToQueueToolStripMenuItem
 			// 

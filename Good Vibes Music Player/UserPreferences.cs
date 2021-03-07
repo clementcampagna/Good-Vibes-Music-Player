@@ -2,11 +2,6 @@
 {
 	class UserPreferences
 	{
-        internal int volume;
-        public int GetSetVolume
-        {
-            get { return volume; }
-            set { volume = value; }
-        }
-    }
+		public int GetSetVolume { get; set; }
+	}
 }

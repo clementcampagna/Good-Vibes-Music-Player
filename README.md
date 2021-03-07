@@ -8,7 +8,7 @@ While its interface is pretty intuitive and light, Good Vibes Music Player has a
 \
 Download Good Vibes Music Player and see it for yourself today!
 \
-[![Good-Vibes-Music-Player-v1-0.png](/Good%20Vibes%20Music%20Player%20v1.0.png)](https://github.com/clementcampagna/Good-Vibes-Music-Player/releases/download/v1.0/Good.Vibes.Music.Player.v1.0.Setup.exe)
+[![Good-Vibes-Music-Player-v1-0.png](/Good%20Vibes%20Music%20Player%20v1.0.png)](https://github.com/clementcampagna/Good-Vibes-Music-Player/releases/download/v1.1/Good.Vibes.Music.Player.v1.1.Setup.exe)
 
 ### Development:
 

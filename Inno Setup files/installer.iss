@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Good Vibes Music Player"
-#define MyAppVersion "1.0"
+#define MyAppVersion "1.1"
 #define MyAppPublisher "Clément Campagna"
 #define MyAppURL "https://github.com/clementcampagna/Good-Vibes-Music-Player"
 #define MyAppExeName "Good Vibes Music Player.exe"
@@ -21,18 +21,18 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\LICENSE.txt
-InfoBeforeFile=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\\README.txt
+LicenseFile=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\LICENSE.txt
+InfoBeforeFile=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\README.txt
 PrivilegesRequired=admin
-OutputDir=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files
+OutputDir=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files
 OutputBaseFilename=Setup
-SetupIconFile=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\icon.ico
+SetupIconFile=C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\icon.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
 ChangesAssociations=yes
-VersionInfoVersion=1.0.0.0
-AppCopyright=Copyright © 2020 Clément Campagna
+VersionInfoVersion=1.1.0.0
+AppCopyright=MIT License © 2021 Clément Campagna
 UninstallDisplayIcon={app}\{#MyAppName}.exe 
 
 [Languages]
@@ -76,16 +76,16 @@ Root: HKCR; Subkey: "{#MyAppName}_adts\DefaultIcon"; ValueType: string; ValueNam
 Root: HKCR; Subkey: "{#MyAppName}_adts\shell\open\command"; ValueType: string; ValueName: ""; ValueData: """{app}\{#MyAppName}.exe"" ""%1"""; Tasks: adtsAssociation
 
 [Files]
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\Good Vibes Music Player.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\Good Vibes Music Player.exe.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\Guna.UI2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\Microsoft.WindowsAPICodePack.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\Microsoft.WindowsAPICodePack.Shell.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\NAudio.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\TagLibSharp.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\LICENSE.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\README.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\Inno Setup files\Good Vibes Music Player\Good Vibes Music Player on the Web.url"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\Good Vibes Music Player.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\Good Vibes Music Player.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\Guna.UI2.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\Microsoft.WindowsAPICodePack.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\Microsoft.WindowsAPICodePack.Shell.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\NAudio.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\TagLibSharp.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\LICENSE.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\README.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Clement\Documents\Coding\C#\Good Vibes Music Player\GitHub\Good-Vibes-Music-Player\Inno Setup files\Good Vibes Music Player\Good Vibes Music Player on the Web.url"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
